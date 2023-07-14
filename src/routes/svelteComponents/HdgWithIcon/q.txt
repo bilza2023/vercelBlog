@@ -1,0 +1,12 @@
+&lt;script&gt;
+export let title;
+export let icon;
+export let bgColor = 'bg-blue-800';
+&lt;/script&gt;
+
+&lt;div class="flex justify-center"&gt;
+  &lt;div class=&#123;`inline-flex $&#123;bgColor&#125; text-white rounded-md p-3 m-2 px-14 mt-4`&#125;&gt;
+    &lt;span class="text-3xl"&gt;&#123;icon&#125;&lt;/span&gt; 
+    &lt;span class="text-3xl"&gt;&#123;title&#125; &lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
