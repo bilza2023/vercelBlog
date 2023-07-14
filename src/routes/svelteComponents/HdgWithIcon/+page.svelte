@@ -5,19 +5,9 @@ import Li from '../../../lib/UiOl/Li.svelte';
 import HdgWidthIcon from '../../../lib/cmp/HdgWithIcon.svelte';
 import Img from '../../../lib/cmp/Img.svelte';
 import P from '../../../lib/cmp/P.svelte';
-import NavSec from '../../../lib/cmp/NavSec.svelte';
-import ToolBarBtn from '../../../lib/cmp/ToolBarBtn.svelte';
-    import { browser } from '$app/environment';
-  import { goto } from '$app/navigation';
+
 </script>
 
-<NavSec>
-<ToolBarBtn  icon='📜'  
-clk = {()=>{ if (browser){goto('/svelteComponents/')}}}
-/>
-</NavSec>
-
-<div class="bg-gray-800 w-full  text-white">
 
 <br/>
 <HdgWidthIcon >HdgWidthIcon</HdgWidthIcon>
@@ -34,6 +24,3 @@ clk = {()=>{ if (browser){goto('/svelteComponents/')}}}
 
 <Img url='/images/HdgWithIcon.png' />
 
-<br/>
-<br/>
-</div>

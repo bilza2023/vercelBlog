@@ -1,14 +1,10 @@
 <script>
-
+import HdgWidthIcon from '$lib/cmp/HdgWithIcon.svelte';
+import Anchor from './Anchor.svelte';
 </script>
 
-<div class="bg-gray-800 w-full h-screen text-white">
+<HdgWidthIcon >Svelte Components</HdgWidthIcon>
 
-<h1 class="text-white">Svelte Components </h1>
+<Anchor>HdgWidthIcon</Anchor>
 
 
-<a href='/svelteComponents/HdgWithIcon'>
-<span>Hdg1</span>
-</a>
-
-</div>
