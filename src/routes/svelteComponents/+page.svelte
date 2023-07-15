@@ -8,6 +8,7 @@ import { HdgWithIcon , Anchor} from '../../lib/cmp';
 <Anchor href='/svelteComponents/AreYouSure'>AreYouSure</Anchor>
 <Anchor href='/svelteComponents/BtnWIcon'>BtnWIcon</Anchor>
 <Anchor href='/svelteComponents/BtnIconRound'>BtnIconRound</Anchor>
+<Anchor href='/svelteComponents/BtnIconOval'>BtnIconOval</Anchor>
 <Anchor href='/svelteComponents/Card'>Card</Anchor>
 <Anchor href='/svelteComponents/Comment'>Comment</Anchor>
 <Anchor href='/svelteComponents/Footer'>Footer</Anchor>

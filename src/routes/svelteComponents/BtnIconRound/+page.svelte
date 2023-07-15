@@ -1,6 +1,6 @@
 <script>
 //@ts-nocheck
-import {P,Ul,Li,HdgWithIcon,BtnIconRound} from '../../../lib/cmp/index.js';
+import {P,Ul,Li,HdgWithIcon,BtnIconRound,BtnIconOval,Comment} from '../../../lib/cmp/index.js';
 </script>
 
 
@@ -28,3 +28,9 @@ import {P,Ul,Li,HdgWithIcon,BtnIconRound} from '../../../lib/cmp/index.js';
 <BtnIconRound icon='📐' clk={()=>console.log('clicked Scale')} />
 <BtnIconRound icon='🎨' clk={()=>console.log('clicked Theme')} />
 </div>
+
+<br/>
+<div class='flex justify-center'>
+<BtnIconOval  icon='📢' clk={()=>console.log('clicked oval button')}/>
+</div>
+<Comment>The BtnIconOval is here for comparison</Comment>
