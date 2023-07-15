@@ -1,4 +1,5 @@
 <script>
+export let href = '';
 </script>
 
 
@@ -7,7 +8,7 @@
 
 
     <div class='text-xl'>
-        <a href='/svelteComponents/HdgWithIcon'>
+        <a href= {href}>
             <slot></slot>
         </a>
     </div>

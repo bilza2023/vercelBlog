@@ -10,7 +10,7 @@ export let falseColor ="text-red-400";
 
 
  <div class="w-20">
-  <button class= {`w-full flex flex-col items-center p-2 bg-gray-800 rounded hover:bg-gray-500 active:bg-gray-900`}
+  <button class= {`w-full flex flex-col items-center p-2 bg-gray-700 rounded hover:bg-gray-900 active:bg-gray-500`}
   on:click={clk}  >
     <span class="text-2xl">{`${icon}`}</span>
     <span class="text-sm font-medium 

@@ -1,5 +1,5 @@
 <script>
-export let bgColor = 'bg-gray-700'
+export let bgColor = 'bg-gray-500'
 export let textColor = 'text-white'
 </script>
 

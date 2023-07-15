@@ -12,4 +12,10 @@
 </a>
 </div>
 
+<div class="flex justify-center ">
+<a class='w-full' href='./svelteExamples'>
+<h1 class="w-6/12 bg-gray-900 p-1 m-1 rounded-md border-white border-2 text-white text-center">Svelte Examples</h1>
+</a>
+</div>
+
 </div>

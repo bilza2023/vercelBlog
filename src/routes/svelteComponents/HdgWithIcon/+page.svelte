@@ -1,16 +1,12 @@
 <script>
 //@ts-nocheck
-import Ul from '../../../lib/UiOl/Ul.svelte';
-import Li from '../../../lib/UiOl/Li.svelte';
-import HdgWidthIcon from '../../../lib/cmp/HdgWithIcon.svelte';
-import Img from '../../../lib/cmp/Img.svelte';
-import P from '../../../lib/cmp/P.svelte';
-
+//@ts-nocheck
+import {P,Ul,Li,HdgWithIcon,Img} from '../../../lib/cmp/index.js';
 </script>
 
 
 <br/>
-<HdgWidthIcon >HdgWidthIcon</HdgWidthIcon>
+<HdgWithIcon >HdgWidthIcon</HdgWithIcon>
 
 <P>Normally use as page main heading. Also used to show sections on a page. This is my go to Component when I need a heading.</P>
 

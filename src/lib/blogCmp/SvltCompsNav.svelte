@@ -7,7 +7,10 @@ import { goto } from '$app/navigation';
 </script>
 
 <NavSec>
-<ToolBarBtn  title='Home' icon='🏡'  
+<ToolBarBtn  title='Home' icon='🏦'  
+clk = {()=>{ if (browser){goto('/')}}}
+/>
+<ToolBarBtn  title='Comps' icon='🏡'  
 clk = {()=>{ if (browser){goto('/svelteComponents/')}}}
 />
 </NavSec>
