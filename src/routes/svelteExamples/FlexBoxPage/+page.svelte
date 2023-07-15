@@ -34,7 +34,7 @@
 <div class='flex justify-center'>
 <Range bind:value={numberOfCards.no} /> 
 </div>
-
+<!-- THE MAIN CODE -->
 <div class="flex justify-center gap-2 flex-wrap">
   {#each cardsData as cardData, index}
     <div class={`w-${numberOfCards.no}/12`}>
@@ -47,3 +47,4 @@
     </div>
   {/each}
 </div>
+<!-- THE MAIN CODE ENDS -->

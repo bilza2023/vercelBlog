@@ -1,21 +1,27 @@
 <script>
-
+import {PageWrapper,HdgWithIcon,Card} from '$lib/cmp';
+const cardsData = [
+    { title: 'Svelte Components', url: '/svelteComponents' , icon :"🧰" },
+    { title: 'Svelte Examples', url: '/svelteExamples' ,icon :"🌟"},
+  ];
 </script>
 
-<div class="bg-gray-800 w-full h-screen text-white">
-
-<h1 class="text-white">Blog</h1>
-
-<div class="flex justify-center ">
-<a class='w-full' href='./svelteComponents'>
-<h1 class="w-6/12 bg-gray-900 p-1 m-1 rounded-md border-white border-2 text-white text-center">Svelte Components</h1>
-</a>
+<PageWrapper>
+<br/>
+<HdgWithIcon>Bilal's Blog</HdgWithIcon>
+<br/>
+<div class="flex justify-center gap-2 flex-wrap">
+  {#each cardsData as cardData, index}
+    <div class= 'w-3/12'>
+      <Card
+        title={cardData.title}
+        url={cardData.url}
+        icon={cardData.icon}
+        titleCharsCount={15}
+      />
+    </div>
+  {/each}
 </div>
 
-<div class="flex justify-center ">
-<a class='w-full' href='./svelteExamples'>
-<h1 class="w-6/12 bg-gray-900 p-1 m-1 rounded-md border-white border-2 text-white text-center">Svelte Examples</h1>
-</a>
-</div>
 
-</div>
+</PageWrapper>
