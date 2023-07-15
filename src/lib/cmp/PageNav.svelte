@@ -3,8 +3,7 @@ export let bgColor = 'bg-gray-400';
 </script>
 
 
-<div class={`flex justify-left   items-center ${bgColor} px-2  
-py-2 gap-2`}>
+<div class={`flex justify-left   items-center ${bgColor} p-1   gap-1`}>
 
 <slot></slot>
 </div>
