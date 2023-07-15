@@ -1,15 +1,15 @@
 <script>
   //@ts-nocheck
-  import { P, HdgWithIcon, Card,Range,FlexBox } from '../../../lib/cmp/index.js';
+  import { P, HdgWithIcon, Card,Range } from '../../../lib/cmp/index.js';
 
-  let numberOfCards = 2;
+  let numberOfCards ={ no: 2 };
 
   const cardsData = [
-    { title: 'The Title', url: 'https://google.com' },
-    { title: 'The Title2', url: 'https://google.com' },
-    { title: 'The Title3', url: 'https://google.com' },
-    { title: 'The Title4', url: 'https://google.com' },
-    { title: 'The Title5', url: 'https://google.com' },
+    { title: 'Titlex', url: 'https://google.com' },
+    { title: 'The Title2w', url: 'https://google.com' },
+    { title: 'The Title32', url: 'https://google.com' },
+    { title: 'The Title48', url: 'https://google.com' },
+    { title: 'The Title52', url: 'https://google.com' },
     { title: 'The Title6', url: 'https://google.com' },
     { title: 'The Title7', url: 'https://google.com' },
     { title: 'The Title8', url: 'https://google.com' },
@@ -32,24 +32,12 @@
 <HdgWithIcon icon='🧱'>Example</HdgWithIcon>
 <!-- range -->
 <div class='flex justify-center'>
-<Range bind:value={numberOfCards} /> 
+<Range bind:value={numberOfCards.no} /> 
 </div>
 
-<FlexBox data ={cardsData}>
-  <!-- <template slot="card" let:d> -->
-  <Card
-  
-        title={"ddddd"}
-        url={'hhhh'}
-        icon="🧱"
-        titleCharsCount={15}
-  />
-  <!-- </template> -->
-
-</FlexBox>
-<!-- <div class="flex justify-center gap-3 flex-wrap">
+<div class="flex justify-center gap-2 flex-wrap">
   {#each cardsData as cardData, index}
-    <div class={`w-${numberOfCards}/12`}>
+    <div class={`w-${numberOfCards.no}/12`}>
       <Card
         title={cardData.title}
         url={cardData.url}
@@ -58,4 +46,4 @@
       />
     </div>
   {/each}
-</div> -->
+</div>
